@@ -31,7 +31,8 @@ URL - https://ap-trading-production.netlify.app/
 In conclusion, web application strives to make hiring household help a trustworthy and hassle-free experience for families. By integrating smart technology, including Deep learning, the web app aims to address the reliability issues associated with household staffing services. Goal is to provide a secure platform where families can easily connect with background-checked workers.
 
 **System Architecture**
-![image](https://github.com/user-attachments/assets/e0c7a0eb-2239-4c14-ba6b-9eac1f05fba2)
+![Untitled Workspace (2) (1)](https://github.com/Hukumchand-Narwre/Bridging_Trust_Solution_for_Reliable_Household_workers/assets/85044429/7664b894-ab90-4c4f-9306-261c4c3c94ac)
+
 
 ## Technology
 
@@ -42,3 +43,40 @@ In conclusion, web application strives to make hiring household help a trustwort
 - **Azure Blob Storage:** Blob Storage is designed for serving images or documents directly to a browser.
   
 - **Zustand:** Zustand is used for state management, offering a simple and efficient solution to handle application state.
+
+## Local Installation Guide
+
+Follow these steps to set up the project on your local machine:
+
+- **Prerequisites -**
+Ensure you have Node.js installed:
+
+You can download and install Node.js from https://nodejs.org/
+
+**Installation steps**
+- **1. Clone the repository**
+```bash
+git clone https://github.com/Hukumchand-Narwre/Bridging_Trust_Solution_for_Reliable_Household_workers.git
+```
+- **2. Navigate to project directory**
+```bash
+cd Bridging_Trust_Solution_for_Reliable_Household_workers
+```
+- **3. Install dependencies**
+```bash
+yarn install
+```
+- **4. Configure environment variables:**
+Create the .env file in root directory of the project  and create the following variables.
+```bash
+VITE_REACT_API_URL = "https://chiragb79.pythonanywhere.com/v1/"
+VITE_CONNECTION_STRING = 
+VITE_CONTTAINER_NAME = 
+```
+Update the variables with your keys.
+- **5. Run the project**
+```bash
+ npm run dev
+```
+
+
